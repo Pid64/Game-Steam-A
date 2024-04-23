@@ -1,12 +1,14 @@
-[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://b0niito8ubxkm"]
+[gd_resource type="Resource" script_class="Item" load_steps=4 format=3 uid="uid://b0niito8ubxkm"]
 
-[ext_resource type="Texture2D" uid="uid://8rm72n7uaax8" path="res://icon.svg" id="1_5dpvt"]
-[ext_resource type="Script" path="res://scritps/data info/items.gd" id="2_8s6wf"]
+[ext_resource type="Script" path="res://assets/items/effects/espada.gd" id="1_rgkb7"]
+[ext_resource type="Texture2D" uid="uid://8rm72n7uaax8" path="res://icon.svg" id="2_dd7u5"]
+[ext_resource type="Script" path="res://scritps/data info/items.gd" id="3_j2ny3"]
 
 [resource]
-script = ExtResource("2_8s6wf")
-Icon = ExtResource("1_5dpvt")
+script = ExtResource("3_j2ny3")
+Icon = ExtResource("2_dd7u5")
 Name = "Espada"
+Effect = ExtResource("1_rgkb7")
 tipo = "Arma"
 raridade = "Comum"
-"descrição" = "TESTE DE ESPADA"
+"descrição" = "Teste"
